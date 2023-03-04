@@ -1,0 +1,958 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02CCF87629B36D840099F543 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CCF87529B36D840099F543 /* AppDelegate.swift */; };
+		02CCF87829B36D840099F543 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CCF87729B36D840099F543 /* SceneDelegate.swift */; };
+		02CCF87B29B36D840099F543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF87929B36D840099F543 /* LaunchScreen.storyboard */; };
+		02CCF87E29B36D840099F543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF87C29B36D840099F543 /* Main.storyboard */; };
+		02CCF88729B36D840099F543 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CCF88629B36D840099F543 /* AppDelegate.swift */; };
+		02CCF88A29B36D840099F543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF88829B36D840099F543 /* Main.storyboard */; };
+		02CCF89129B36D840099F543 /* passepartum-safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 02CCF89029B36D840099F543 /* passepartum-safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		02CCF89B29B36D840099F543 /* passepartum-safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 02CCF89A29B36D840099F543 /* passepartum-safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		02CCF8A129B36D840099F543 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF85C29B36D830099F543 /* Main.html */; };
+		02CCF8A229B36D840099F543 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF85C29B36D830099F543 /* Main.html */; };
+		02CCF8A329B36D840099F543 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF85E29B36D830099F543 /* Icon.png */; };
+		02CCF8A429B36D840099F543 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF85E29B36D830099F543 /* Icon.png */; };
+		02CCF8A529B36D840099F543 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF85F29B36D830099F543 /* Style.css */; };
+		02CCF8A629B36D840099F543 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF85F29B36D830099F543 /* Style.css */; };
+		02CCF8A729B36D840099F543 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86029B36D830099F543 /* Script.js */; };
+		02CCF8A829B36D840099F543 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86029B36D830099F543 /* Script.js */; };
+		02CCF8A929B36D840099F543 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CCF86129B36D830099F543 /* ViewController.swift */; };
+		02CCF8AA29B36D840099F543 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CCF86129B36D830099F543 /* ViewController.swift */; };
+		02CCF8AB29B36D840099F543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86229B36D840099F543 /* Assets.xcassets */; };
+		02CCF8AC29B36D840099F543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86229B36D840099F543 /* Assets.xcassets */; };
+		02CCF8AD29B36D840099F543 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CCF86429B36D840099F543 /* SafariWebExtensionHandler.swift */; };
+		02CCF8AE29B36D840099F543 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CCF86429B36D840099F543 /* SafariWebExtensionHandler.swift */; };
+		02CCF8AF29B36D840099F543 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86629B36D840099F543 /* _locales */; };
+		02CCF8B029B36D840099F543 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86629B36D840099F543 /* _locales */; };
+		02CCF8B129B36D840099F543 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86729B36D840099F543 /* images */; };
+		02CCF8B229B36D840099F543 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86729B36D840099F543 /* images */; };
+		02CCF8B329B36D840099F543 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86829B36D840099F543 /* manifest.json */; };
+		02CCF8B429B36D840099F543 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86829B36D840099F543 /* manifest.json */; };
+		02CCF8B529B36D840099F543 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86929B36D840099F543 /* background.js */; };
+		02CCF8B629B36D840099F543 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86929B36D840099F543 /* background.js */; };
+		02CCF8B729B36D840099F543 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86A29B36D840099F543 /* content.js */; };
+		02CCF8B829B36D840099F543 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86A29B36D840099F543 /* content.js */; };
+		02CCF8B929B36D840099F543 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86B29B36D840099F543 /* popup.html */; };
+		02CCF8BA29B36D840099F543 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86B29B36D840099F543 /* popup.html */; };
+		02CCF8BB29B36D840099F543 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86C29B36D840099F543 /* popup.css */; };
+		02CCF8BC29B36D840099F543 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86C29B36D840099F543 /* popup.css */; };
+		02CCF8BD29B36D840099F543 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86D29B36D840099F543 /* popup.js */; };
+		02CCF8BE29B36D840099F543 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86D29B36D840099F543 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02CCF89229B36D840099F543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02CCF85629B36D830099F543 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02CCF88F29B36D840099F543;
+			remoteInfo = "passepartum-safari Extension (iOS)";
+		};
+		02CCF89C29B36D840099F543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02CCF85629B36D830099F543 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02CCF89929B36D840099F543;
+			remoteInfo = "passepartum-safari Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		02CCF8C429B36D840099F543 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				02CCF89129B36D840099F543 /* passepartum-safari Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02CCF8CB29B36D840099F543 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				02CCF89B29B36D840099F543 /* passepartum-safari Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02CCF85D29B36D830099F543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		02CCF85E29B36D830099F543 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		02CCF85F29B36D830099F543 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		02CCF86029B36D830099F543 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		02CCF86129B36D830099F543 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02CCF86229B36D840099F543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02CCF86429B36D840099F543 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		02CCF86629B36D840099F543 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		02CCF86729B36D840099F543 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		02CCF86829B36D840099F543 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		02CCF86929B36D840099F543 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		02CCF86A29B36D840099F543 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		02CCF86B29B36D840099F543 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		02CCF86C29B36D840099F543 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		02CCF86D29B36D840099F543 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		02CCF87229B36D840099F543 /* passepartum-safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "passepartum-safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02CCF87529B36D840099F543 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02CCF87729B36D840099F543 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		02CCF87A29B36D840099F543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02CCF87D29B36D840099F543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02CCF87F29B36D840099F543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02CCF88429B36D840099F543 /* passepartum-safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "passepartum-safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02CCF88629B36D840099F543 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02CCF88929B36D840099F543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02CCF88B29B36D840099F543 /* passepartum-safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "passepartum-safari.entitlements"; sourceTree = "<group>"; };
+		02CCF89029B36D840099F543 /* passepartum-safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "passepartum-safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02CCF89529B36D840099F543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02CCF89A29B36D840099F543 /* passepartum-safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "passepartum-safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02CCF89F29B36D840099F543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02CCF8A029B36D840099F543 /* passepartum-safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "passepartum-safari.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02CCF86F29B36D840099F543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02CCF88129B36D840099F543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02CCF88D29B36D840099F543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02CCF89729B36D840099F543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02CCF85529B36D830099F543 = {
+			isa = PBXGroup;
+			children = (
+				02CCF85A29B36D830099F543 /* Shared (App) */,
+				02CCF86329B36D840099F543 /* Shared (Extension) */,
+				02CCF87429B36D840099F543 /* iOS (App) */,
+				02CCF88529B36D840099F543 /* macOS (App) */,
+				02CCF89429B36D840099F543 /* iOS (Extension) */,
+				02CCF89E29B36D840099F543 /* macOS (Extension) */,
+				02CCF87329B36D840099F543 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02CCF85A29B36D830099F543 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				02CCF86129B36D830099F543 /* ViewController.swift */,
+				02CCF86229B36D840099F543 /* Assets.xcassets */,
+				02CCF85B29B36D830099F543 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		02CCF85B29B36D830099F543 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				02CCF85C29B36D830099F543 /* Main.html */,
+				02CCF85E29B36D830099F543 /* Icon.png */,
+				02CCF85F29B36D830099F543 /* Style.css */,
+				02CCF86029B36D830099F543 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		02CCF86329B36D840099F543 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				02CCF86429B36D840099F543 /* SafariWebExtensionHandler.swift */,
+				02CCF86529B36D840099F543 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		02CCF86529B36D840099F543 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				02CCF86629B36D840099F543 /* _locales */,
+				02CCF86729B36D840099F543 /* images */,
+				02CCF86829B36D840099F543 /* manifest.json */,
+				02CCF86929B36D840099F543 /* background.js */,
+				02CCF86A29B36D840099F543 /* content.js */,
+				02CCF86B29B36D840099F543 /* popup.html */,
+				02CCF86C29B36D840099F543 /* popup.css */,
+				02CCF86D29B36D840099F543 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		02CCF87329B36D840099F543 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02CCF87229B36D840099F543 /* passepartum-safari.app */,
+				02CCF88429B36D840099F543 /* passepartum-safari.app */,
+				02CCF89029B36D840099F543 /* passepartum-safari Extension.appex */,
+				02CCF89A29B36D840099F543 /* passepartum-safari Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02CCF87429B36D840099F543 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				02CCF87529B36D840099F543 /* AppDelegate.swift */,
+				02CCF87729B36D840099F543 /* SceneDelegate.swift */,
+				02CCF87929B36D840099F543 /* LaunchScreen.storyboard */,
+				02CCF87C29B36D840099F543 /* Main.storyboard */,
+				02CCF87F29B36D840099F543 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		02CCF88529B36D840099F543 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				02CCF88629B36D840099F543 /* AppDelegate.swift */,
+				02CCF88829B36D840099F543 /* Main.storyboard */,
+				02CCF88B29B36D840099F543 /* passepartum-safari.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		02CCF89429B36D840099F543 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				02CCF89529B36D840099F543 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		02CCF89E29B36D840099F543 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				02CCF89F29B36D840099F543 /* Info.plist */,
+				02CCF8A029B36D840099F543 /* passepartum-safari.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02CCF87129B36D840099F543 /* passepartum-safari (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02CCF8C529B36D840099F543 /* Build configuration list for PBXNativeTarget "passepartum-safari (iOS)" */;
+			buildPhases = (
+				02CCF86E29B36D840099F543 /* Sources */,
+				02CCF86F29B36D840099F543 /* Frameworks */,
+				02CCF87029B36D840099F543 /* Resources */,
+				02CCF8C429B36D840099F543 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02CCF89329B36D840099F543 /* PBXTargetDependency */,
+			);
+			name = "passepartum-safari (iOS)";
+			productName = "passepartum-safari (iOS)";
+			productReference = 02CCF87229B36D840099F543 /* passepartum-safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02CCF88329B36D840099F543 /* passepartum-safari (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02CCF8CC29B36D840099F543 /* Build configuration list for PBXNativeTarget "passepartum-safari (macOS)" */;
+			buildPhases = (
+				02CCF88029B36D840099F543 /* Sources */,
+				02CCF88129B36D840099F543 /* Frameworks */,
+				02CCF88229B36D840099F543 /* Resources */,
+				02CCF8CB29B36D840099F543 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02CCF89D29B36D840099F543 /* PBXTargetDependency */,
+			);
+			name = "passepartum-safari (macOS)";
+			productName = "passepartum-safari (macOS)";
+			productReference = 02CCF88429B36D840099F543 /* passepartum-safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02CCF88F29B36D840099F543 /* passepartum-safari Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02CCF8C129B36D840099F543 /* Build configuration list for PBXNativeTarget "passepartum-safari Extension (iOS)" */;
+			buildPhases = (
+				02CCF88C29B36D840099F543 /* Sources */,
+				02CCF88D29B36D840099F543 /* Frameworks */,
+				02CCF88E29B36D840099F543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "passepartum-safari Extension (iOS)";
+			productName = "passepartum-safari Extension (iOS)";
+			productReference = 02CCF89029B36D840099F543 /* passepartum-safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		02CCF89929B36D840099F543 /* passepartum-safari Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02CCF8C829B36D840099F543 /* Build configuration list for PBXNativeTarget "passepartum-safari Extension (macOS)" */;
+			buildPhases = (
+				02CCF89629B36D840099F543 /* Sources */,
+				02CCF89729B36D840099F543 /* Frameworks */,
+				02CCF89829B36D840099F543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "passepartum-safari Extension (macOS)";
+			productName = "passepartum-safari Extension (macOS)";
+			productReference = 02CCF89A29B36D840099F543 /* passepartum-safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02CCF85629B36D830099F543 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					02CCF87129B36D840099F543 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					02CCF88329B36D840099F543 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					02CCF88F29B36D840099F543 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					02CCF89929B36D840099F543 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 02CCF85929B36D830099F543 /* Build configuration list for PBXProject "passepartum-safari" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02CCF85529B36D830099F543;
+			productRefGroup = 02CCF87329B36D840099F543 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02CCF87129B36D840099F543 /* passepartum-safari (iOS) */,
+				02CCF88329B36D840099F543 /* passepartum-safari (macOS) */,
+				02CCF88F29B36D840099F543 /* passepartum-safari Extension (iOS) */,
+				02CCF89929B36D840099F543 /* passepartum-safari Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02CCF87029B36D840099F543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CCF8A329B36D840099F543 /* Icon.png in Resources */,
+				02CCF87B29B36D840099F543 /* LaunchScreen.storyboard in Resources */,
+				02CCF8A129B36D840099F543 /* Main.html in Resources */,
+				02CCF8A729B36D840099F543 /* Script.js in Resources */,
+				02CCF8AB29B36D840099F543 /* Assets.xcassets in Resources */,
+				02CCF87E29B36D840099F543 /* Main.storyboard in Resources */,
+				02CCF8A529B36D840099F543 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02CCF88229B36D840099F543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CCF8A429B36D840099F543 /* Icon.png in Resources */,
+				02CCF8A629B36D840099F543 /* Style.css in Resources */,
+				02CCF88A29B36D840099F543 /* Main.storyboard in Resources */,
+				02CCF8A829B36D840099F543 /* Script.js in Resources */,
+				02CCF8AC29B36D840099F543 /* Assets.xcassets in Resources */,
+				02CCF8A229B36D840099F543 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02CCF88E29B36D840099F543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CCF8B529B36D840099F543 /* background.js in Resources */,
+				02CCF8BB29B36D840099F543 /* popup.css in Resources */,
+				02CCF8B929B36D840099F543 /* popup.html in Resources */,
+				02CCF8B129B36D840099F543 /* images in Resources */,
+				02CCF8B329B36D840099F543 /* manifest.json in Resources */,
+				02CCF8AF29B36D840099F543 /* _locales in Resources */,
+				02CCF8B729B36D840099F543 /* content.js in Resources */,
+				02CCF8BD29B36D840099F543 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02CCF89829B36D840099F543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CCF8B629B36D840099F543 /* background.js in Resources */,
+				02CCF8BC29B36D840099F543 /* popup.css in Resources */,
+				02CCF8BA29B36D840099F543 /* popup.html in Resources */,
+				02CCF8B229B36D840099F543 /* images in Resources */,
+				02CCF8B429B36D840099F543 /* manifest.json in Resources */,
+				02CCF8B029B36D840099F543 /* _locales in Resources */,
+				02CCF8B829B36D840099F543 /* content.js in Resources */,
+				02CCF8BE29B36D840099F543 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02CCF86E29B36D840099F543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CCF8A929B36D840099F543 /* ViewController.swift in Sources */,
+				02CCF87629B36D840099F543 /* AppDelegate.swift in Sources */,
+				02CCF87829B36D840099F543 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02CCF88029B36D840099F543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CCF8AA29B36D840099F543 /* ViewController.swift in Sources */,
+				02CCF88729B36D840099F543 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02CCF88C29B36D840099F543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CCF8AD29B36D840099F543 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02CCF89629B36D840099F543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CCF8AE29B36D840099F543 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02CCF89329B36D840099F543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02CCF88F29B36D840099F543 /* passepartum-safari Extension (iOS) */;
+			targetProxy = 02CCF89229B36D840099F543 /* PBXContainerItemProxy */;
+		};
+		02CCF89D29B36D840099F543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02CCF89929B36D840099F543 /* passepartum-safari Extension (macOS) */;
+			targetProxy = 02CCF89C29B36D840099F543 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02CCF85C29B36D830099F543 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02CCF85D29B36D830099F543 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		02CCF87929B36D840099F543 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02CCF87A29B36D840099F543 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		02CCF87C29B36D840099F543 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02CCF87D29B36D840099F543 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02CCF88829B36D840099F543 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02CCF88929B36D840099F543 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02CCF8BF29B36D840099F543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02CCF8C029B36D840099F543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		02CCF8C229B36D840099F543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "passepartum-safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.costa-jonathan.passepartum-safari.Extension";
+				PRODUCT_NAME = "passepartum-safari Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02CCF8C329B36D840099F543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "passepartum-safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.costa-jonathan.passepartum-safari.Extension";
+				PRODUCT_NAME = "passepartum-safari Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02CCF8C629B36D840099F543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "passepartum-safari";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.costa-jonathan.passepartum-safari";
+				PRODUCT_NAME = "passepartum-safari";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02CCF8C729B36D840099F543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "passepartum-safari";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.costa-jonathan.passepartum-safari";
+				PRODUCT_NAME = "passepartum-safari";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02CCF8C929B36D840099F543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/passepartum-safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "passepartum-safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.costa-jonathan.passepartum-safari.Extension";
+				PRODUCT_NAME = "passepartum-safari Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		02CCF8CA29B36D840099F543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/passepartum-safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "passepartum-safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.costa-jonathan.passepartum-safari.Extension";
+				PRODUCT_NAME = "passepartum-safari Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		02CCF8CD29B36D840099F543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/passepartum-safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "passepartum-safari";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.costa-jonathan.passepartum-safari";
+				PRODUCT_NAME = "passepartum-safari";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		02CCF8CE29B36D840099F543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/passepartum-safari.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "passepartum-safari";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.costa-jonathan.passepartum-safari";
+				PRODUCT_NAME = "passepartum-safari";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02CCF85929B36D830099F543 /* Build configuration list for PBXProject "passepartum-safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02CCF8BF29B36D840099F543 /* Debug */,
+				02CCF8C029B36D840099F543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02CCF8C129B36D840099F543 /* Build configuration list for PBXNativeTarget "passepartum-safari Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02CCF8C229B36D840099F543 /* Debug */,
+				02CCF8C329B36D840099F543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02CCF8C529B36D840099F543 /* Build configuration list for PBXNativeTarget "passepartum-safari (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02CCF8C629B36D840099F543 /* Debug */,
+				02CCF8C729B36D840099F543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02CCF8C829B36D840099F543 /* Build configuration list for PBXNativeTarget "passepartum-safari Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02CCF8C929B36D840099F543 /* Debug */,
+				02CCF8CA29B36D840099F543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02CCF8CC29B36D840099F543 /* Build configuration list for PBXNativeTarget "passepartum-safari (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02CCF8CD29B36D840099F543 /* Debug */,
+				02CCF8CE29B36D840099F543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02CCF85629B36D830099F543 /* Project object */;
+}
