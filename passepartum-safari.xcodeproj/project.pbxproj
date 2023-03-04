@@ -35,16 +35,18 @@
 		02CCF8B229B36D840099F543 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86729B36D840099F543 /* images */; };
 		02CCF8B329B36D840099F543 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86829B36D840099F543 /* manifest.json */; };
 		02CCF8B429B36D840099F543 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86829B36D840099F543 /* manifest.json */; };
-		02CCF8B529B36D840099F543 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86929B36D840099F543 /* background.js */; };
-		02CCF8B629B36D840099F543 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86929B36D840099F543 /* background.js */; };
-		02CCF8B729B36D840099F543 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86A29B36D840099F543 /* content.js */; };
-		02CCF8B829B36D840099F543 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86A29B36D840099F543 /* content.js */; };
-		02CCF8B929B36D840099F543 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86B29B36D840099F543 /* popup.html */; };
-		02CCF8BA29B36D840099F543 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86B29B36D840099F543 /* popup.html */; };
-		02CCF8BB29B36D840099F543 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86C29B36D840099F543 /* popup.css */; };
-		02CCF8BC29B36D840099F543 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86C29B36D840099F543 /* popup.css */; };
-		02CCF8BD29B36D840099F543 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86D29B36D840099F543 /* popup.js */; };
-		02CCF8BE29B36D840099F543 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF86D29B36D840099F543 /* popup.js */; };
+		02CCF8D029B374F60099F543 /* srcPopup in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF8CF29B374F60099F543 /* srcPopup */; };
+		02CCF8D129B374F60099F543 /* srcPopup in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF8CF29B374F60099F543 /* srcPopup */; };
+		02CCF8D329B3777C0099F543 /* passScience in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF8D229B3777C0099F543 /* passScience */; };
+		02CCF8D429B3777C0099F543 /* passScience in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF8D229B3777C0099F543 /* passScience */; };
+		02CCF8D729B380A60099F543 /* passMoodleWelcome.js in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF8D529B380A60099F543 /* passMoodleWelcome.js */; };
+		02CCF8D829B380A60099F543 /* passMoodleWelcome.js in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF8D529B380A60099F543 /* passMoodleWelcome.js */; };
+		02CCF8D929B380A60099F543 /* master.css in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF8D629B380A60099F543 /* master.css */; };
+		02CCF8DA29B380A60099F543 /* master.css in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF8D629B380A60099F543 /* master.css */; };
+		02CCF8DD29B38F630099F543 /* icons8-key-blue.svg in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF8DB29B38F630099F543 /* icons8-key-blue.svg */; };
+		02CCF8DE29B38F630099F543 /* icons8-key-blue.svg in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF8DB29B38F630099F543 /* icons8-key-blue.svg */; };
+		02CCF8DF29B38F630099F543 /* icons8-key-black.svg in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF8DC29B38F630099F543 /* icons8-key-black.svg */; };
+		02CCF8E029B38F630099F543 /* icons8-key-black.svg in Resources */ = {isa = PBXBuildFile; fileRef = 02CCF8DC29B38F630099F543 /* icons8-key-black.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,11 +102,6 @@
 		02CCF86629B36D840099F543 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
 		02CCF86729B36D840099F543 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		02CCF86829B36D840099F543 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		02CCF86929B36D840099F543 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
-		02CCF86A29B36D840099F543 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		02CCF86B29B36D840099F543 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		02CCF86C29B36D840099F543 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		02CCF86D29B36D840099F543 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		02CCF87229B36D840099F543 /* passepartum-safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "passepartum-safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02CCF87529B36D840099F543 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02CCF87729B36D840099F543 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,6 +117,12 @@
 		02CCF89A29B36D840099F543 /* passepartum-safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "passepartum-safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02CCF89F29B36D840099F543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02CCF8A029B36D840099F543 /* passepartum-safari.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "passepartum-safari.entitlements"; sourceTree = "<group>"; };
+		02CCF8CF29B374F60099F543 /* srcPopup */ = {isa = PBXFileReference; lastKnownFileType = folder; name = srcPopup; path = ../../../passepartum/srcPopup; sourceTree = "<group>"; };
+		02CCF8D229B3777C0099F543 /* passScience */ = {isa = PBXFileReference; lastKnownFileType = folder; name = passScience; path = ../../../passepartum/passScience; sourceTree = "<group>"; };
+		02CCF8D529B380A60099F543 /* passMoodleWelcome.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = passMoodleWelcome.js; path = ../../../passepartum/passMoodleWelcome.js; sourceTree = "<group>"; };
+		02CCF8D629B380A60099F543 /* master.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = master.css; path = ../../../passepartum/master.css; sourceTree = "<group>"; };
+		02CCF8DB29B38F630099F543 /* icons8-key-blue.svg */ = {isa = PBXFileReference; lastKnownFileType = file; name = "icons8-key-blue.svg"; path = "Shared (Extension)/Resources/images/icons8-key-blue.svg"; sourceTree = SOURCE_ROOT; };
+		02CCF8DC29B38F630099F543 /* icons8-key-black.svg */ = {isa = PBXFileReference; lastKnownFileType = file; name = "icons8-key-black.svg"; path = "Shared (Extension)/Resources/images/icons8-key-black.svg"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +183,8 @@
 		02CCF85B29B36D830099F543 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				02CCF8DB29B38F630099F543 /* icons8-key-blue.svg */,
+				02CCF8DC29B38F630099F543 /* icons8-key-black.svg */,
 				02CCF85C29B36D830099F543 /* Main.html */,
 				02CCF85E29B36D830099F543 /* Icon.png */,
 				02CCF85F29B36D830099F543 /* Style.css */,
@@ -200,14 +205,13 @@
 		02CCF86529B36D840099F543 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				02CCF8D629B380A60099F543 /* master.css */,
+				02CCF8D529B380A60099F543 /* passMoodleWelcome.js */,
+				02CCF8D229B3777C0099F543 /* passScience */,
+				02CCF8CF29B374F60099F543 /* srcPopup */,
 				02CCF86629B36D840099F543 /* _locales */,
 				02CCF86729B36D840099F543 /* images */,
 				02CCF86829B36D840099F543 /* manifest.json */,
-				02CCF86929B36D840099F543 /* background.js */,
-				02CCF86A29B36D840099F543 /* content.js */,
-				02CCF86B29B36D840099F543 /* popup.html */,
-				02CCF86C29B36D840099F543 /* popup.css */,
-				02CCF86D29B36D840099F543 /* popup.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -387,6 +391,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02CCF8DD29B38F630099F543 /* icons8-key-blue.svg in Resources */,
+				02CCF8DF29B38F630099F543 /* icons8-key-black.svg in Resources */,
 				02CCF8A329B36D840099F543 /* Icon.png in Resources */,
 				02CCF87B29B36D840099F543 /* LaunchScreen.storyboard in Resources */,
 				02CCF8A129B36D840099F543 /* Main.html in Resources */,
@@ -401,11 +407,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02CCF8DE29B38F630099F543 /* icons8-key-blue.svg in Resources */,
 				02CCF8A429B36D840099F543 /* Icon.png in Resources */,
 				02CCF8A629B36D840099F543 /* Style.css in Resources */,
 				02CCF88A29B36D840099F543 /* Main.storyboard in Resources */,
 				02CCF8A829B36D840099F543 /* Script.js in Resources */,
 				02CCF8AC29B36D840099F543 /* Assets.xcassets in Resources */,
+				02CCF8E029B38F630099F543 /* icons8-key-black.svg in Resources */,
 				02CCF8A229B36D840099F543 /* Main.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,14 +422,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02CCF8B529B36D840099F543 /* background.js in Resources */,
-				02CCF8BB29B36D840099F543 /* popup.css in Resources */,
-				02CCF8B929B36D840099F543 /* popup.html in Resources */,
+				02CCF8D329B3777C0099F543 /* passScience in Resources */,
+				02CCF8D929B380A60099F543 /* master.css in Resources */,
 				02CCF8B129B36D840099F543 /* images in Resources */,
+				02CCF8D729B380A60099F543 /* passMoodleWelcome.js in Resources */,
 				02CCF8B329B36D840099F543 /* manifest.json in Resources */,
+				02CCF8D029B374F60099F543 /* srcPopup in Resources */,
 				02CCF8AF29B36D840099F543 /* _locales in Resources */,
-				02CCF8B729B36D840099F543 /* content.js in Resources */,
-				02CCF8BD29B36D840099F543 /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,14 +436,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02CCF8B629B36D840099F543 /* background.js in Resources */,
-				02CCF8BC29B36D840099F543 /* popup.css in Resources */,
-				02CCF8BA29B36D840099F543 /* popup.html in Resources */,
+				02CCF8D429B3777C0099F543 /* passScience in Resources */,
+				02CCF8DA29B380A60099F543 /* master.css in Resources */,
 				02CCF8B229B36D840099F543 /* images in Resources */,
+				02CCF8D829B380A60099F543 /* passMoodleWelcome.js in Resources */,
 				02CCF8B429B36D840099F543 /* manifest.json in Resources */,
+				02CCF8D129B374F60099F543 /* srcPopup in Resources */,
 				02CCF8B029B36D840099F543 /* _locales in Resources */,
-				02CCF8B829B36D840099F543 /* content.js in Resources */,
-				02CCF8BE29B36D840099F543 /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,6 +649,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z782N7V8SY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "passepartum-safari Extension";
@@ -673,6 +680,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z782N7V8SY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "passepartum-safari Extension";
@@ -707,6 +715,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z782N7V8SY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "passepartum-safari";
@@ -744,6 +753,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z782N7V8SY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "passepartum-safari";
@@ -780,6 +790,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/passepartum-safari.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z782N7V8SY;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
@@ -811,6 +822,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/passepartum-safari.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z782N7V8SY;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
@@ -845,6 +857,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/passepartum-safari.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z782N7V8SY;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "passepartum-safari";
@@ -879,6 +892,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/passepartum-safari.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z782N7V8SY;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "passepartum-safari";
